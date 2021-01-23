@@ -32,7 +32,7 @@ on init && property:ro.boot.hardware.sku=XT1955-7
     setprop ro.vendor.telephony.default_network "10,10"
 
 on boot && property:ro.boot.product.hardware.sku=nfc
-    start nfc_hal_service
+    start vendor.nfc_hal_service
 
 on property:ro.boot.hardware.sku=XT1955-1
     setprop ro.radio.imei.sv 33
