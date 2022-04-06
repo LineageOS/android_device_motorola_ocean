@@ -16,6 +16,24 @@
       "message": "actually, pls use build fp, cause moto devices have same build number RETAIL/RETLA/RETRU, etc",
       "revId": "7b135f3fe236a3dfdbe2f91493736ffb8f89dba2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e72e759_398f6a8e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2022-04-06T15:44:51Z",
+      "side": 1,
+      "message": "done, matches same format as river.",
+      "parentUuid": "02181804_abe4d629",
+      "revId": "7b135f3fe236a3dfdbe2f91493736ffb8f89dba2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
