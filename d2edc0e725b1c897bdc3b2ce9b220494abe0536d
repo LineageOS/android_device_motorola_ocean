@@ -22,6 +22,30 @@
       },
       "revId": "d2edc0e725b1c897bdc3b2ce9b220494abe0536d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1681de2b_4927d66a",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2023-01-04T21:35:27Z",
+      "side": 1,
+      "message": "It\u0027s from ocean vendor",
+      "parentUuid": "208cf6bb_713d1b1e",
+      "range": {
+        "startLine": 298,
+        "startChar": 0,
+        "endLine": 298,
+        "endChar": 9
+      },
+      "revId": "d2edc0e725b1c897bdc3b2ce9b220494abe0536d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
