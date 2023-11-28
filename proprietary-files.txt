@@ -1,7 +1,7 @@
 ## All blobs from this list, unless pinned and noted as otherwise,
-##  are from motorola/ocean_retail/ocean:10/QPOS30.52-29-12/401fd:user/release-keys
+## are from ocean_retail (QPOS30.52-29-12).
 
-# Audio - Prebuilt
+# Audio (Prebuilt Audio HAL)
 vendor/lib/hw/audio.primary.msm8953.so
 vendor/lib/soundfx/libmmieffectswrapper.so
 vendor/lib/soundfx/libspeakerbundle.so
@@ -12,7 +12,7 @@ vendor/lib/libmotaudioutils.so
 vendor/lib/libsensorndkbridge.so
 vendor/lib/libtinycompress_vendor.so
 
-# Audio ACDB
+# Audio - ACDB
 vendor/etc/acdbdata/common/Bluetooth_cal.acdb
 vendor/etc/acdbdata/common/General_cal.acdb
 vendor/etc/acdbdata/common/Global_cal.acdb
@@ -27,9 +27,6 @@ vendor/etc/acdbdata/na/Handset_cal.acdb
 vendor/etc/acdbdata/na/Hdmi_cal.acdb
 vendor/etc/acdbdata/na/Headset_cal.acdb
 vendor/etc/acdbdata/na/Speaker_cal.acdb
-
-# Camera
-vendor/lib/libmot_gpu_mapper.so
 
 # Camera
 vendor/lib/hw/camera.msm8953.so
@@ -163,6 +160,22 @@ vendor/lib/libchromatix_s5k4h7_ocean_video_full.so
 vendor/lib/libchromatix_s5k4h7_ocean_zsl_preview_3a.so
 vendor/lib/libchromatix_s5k4h7_ocean_zsl_video_3a.so
 
+# Camera - Firmware
+vendor/firmware/cpp_firmware_v1_10_0.fw
+vendor/firmware/cpp_firmware_v1_12_0.fw
+vendor/firmware/cpp_firmware_v1_1_1.fw
+vendor/firmware/cpp_firmware_v1_1_6.fw
+vendor/firmware/cpp_firmware_v1_2_0.fw
+vendor/firmware/cpp_firmware_v1_4_0.fw
+vendor/firmware/cpp_firmware_v1_5_0.fw
+vendor/firmware/cpp_firmware_v1_5_1.fw
+vendor/firmware/cpp_firmware_v1_5_2.fw
+vendor/firmware/cpp_firmware_v1_6_0.fw
+vendor/firmware/cpp_firmware_v1_8_0.fw
+
+# Camera - GPU
+vendor/lib/libmot_gpu_mapper.so
+
 # Camera - mmcamera
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
@@ -252,26 +265,13 @@ vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmcamera_vstab_module.so
 
-# Camera - Firmware
-vendor/firmware/cpp_firmware_v1_10_0.fw
-vendor/firmware/cpp_firmware_v1_12_0.fw
-vendor/firmware/cpp_firmware_v1_1_1.fw
-vendor/firmware/cpp_firmware_v1_1_6.fw
-vendor/firmware/cpp_firmware_v1_2_0.fw
-vendor/firmware/cpp_firmware_v1_4_0.fw
-vendor/firmware/cpp_firmware_v1_5_0.fw
-vendor/firmware/cpp_firmware_v1_5_1.fw
-vendor/firmware/cpp_firmware_v1_5_2.fw
-vendor/firmware/cpp_firmware_v1_6_0.fw
-vendor/firmware/cpp_firmware_v1_8_0.fw
-
 # Camera - MotCamera2
 -product/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk;PRESIGNED
 
 # Offmode charging
 vendor/bin/charge_only_mode
 
-# Display calib
+# Display Calibrations
 vendor/etc/qdcm_calib_data_mipi_mot_vid_csot_720p_622.xml|a7bee235c1dbad83f1866e4e81d7cc0c1f503cfb
 vendor/etc/qdcm_calib_data_mipi_mot_vid_ofilm_720p_622.xml|ee544e447cc29388e56461b47149217d9e7987cc
 vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_720p_622.xml|d76ef6eeb5985180335f29ca58e18abfa5f08a2c
@@ -286,8 +286,9 @@ vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/lib64/com.fingerprints.extension@1.0.so
 
-# FocalTech Touch Firmware
-vendor/firmware/FT8006U_Pramboot.bin
+# Misc Firmware
+vendor/firmware/leia_pfp_470.fw
+vendor/firmware/leia_pm4_470.fw
 
 # NFC Firmware
 vendor/firmware/st21nfc_fw.bin
@@ -299,9 +300,8 @@ vendor/firmware/AbovCapSense.BIN
 vendor/lib/sensors.ssc.so
 vendor/lib64/sensors.ssc.so
 
-# Sound Card - tfa98xx
+# Sound Card (tfa98xx)
 vendor/firmware/tfa98xx.cnt
 
-# Misc Firmware
-vendor/firmware/leia_pfp_470.fw
-vendor/firmware/leia_pm4_470.fw
+# Touchscreen firmware
+vendor/firmware/FT8006U_Pramboot.bin
