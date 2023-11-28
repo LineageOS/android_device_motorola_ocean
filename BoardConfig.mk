@@ -20,11 +20,8 @@
 DEVICE_PATH := device/motorola/ocean
 
 # Assertions
-TARGET_BOARD_INFO_FILE := device/motorola/ocean/board-info.txt
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 TARGET_OTA_ASSERT_DEVICE := ocean
-
-# Audio
-# AUDIO_FEATURE_ENABLE_TFA98XX_FEEDBACK := true
 
 # Display
 TARGET_SCREEN_DENSITY := 320
