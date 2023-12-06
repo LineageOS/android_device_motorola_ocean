@@ -25,7 +25,7 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-on init && property:ro.boot.hardware.sku=XT1955-7
+on early-init && property:ro.boot.hardware.sku=XT1955-7
     setprop ro.boot.product.hardware.sku nfc
     setprop ro.radio.imei.sv 33
     setprop ro.telephony.default_network "10,10"
