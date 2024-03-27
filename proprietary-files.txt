@@ -266,7 +266,7 @@ vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmcamera_vstab_module.so
 
 # Camera - MotCamera2
--product/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk;PRESIGNED
+-product/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk
 
 # Offmode charging
 vendor/bin/charge_only_mode
