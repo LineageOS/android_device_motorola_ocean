@@ -9,7 +9,7 @@ vendor/lib/libmotaudioutils.so
 vendor/lib/libsensorndkbridge.so
 vendor/lib/libtinycompress_vendor.so
 vendor/lib/soundfx/libmmieffectswrapper.so
-vendor/lib/soundfx/libspeakerbundle.so
+vendor/lib/soundfx/libspeakerbundle.so|af862a0f01a2c2134dffeb47dd6b6dbd6d2efd39
 vendor/lib/vndk/libtinyalsa.so:vendor/lib/libtinyalsa.so
 
 # Audio - ACDB
@@ -174,7 +174,7 @@ vendor/firmware/cpp_firmware_v1_6_0.fw
 vendor/firmware/cpp_firmware_v1_8_0.fw
 
 # Camera - GPU
-vendor/lib/libmot_gpu_mapper.so
+vendor/lib/libmot_gpu_mapper.so|7c3e8f915ae55f4d0a945e3bfc26b634158bc176
 
 # Camera - mmcamera
 vendor/lib/libmmcamera2_c2d_module.so
@@ -187,7 +187,7 @@ vendor/lib/libmmcamera2_isp_modules.so
 vendor/lib/libmmcamera2_mct.so
 vendor/lib/libmmcamera2_mct_shimlayer.so
 vendor/lib/libmmcamera2_pp_buf_mgr.so
-vendor/lib/libmmcamera2_pproc_modules.so
+vendor/lib/libmmcamera2_pproc_modules.so|7ee35c52cbb7dbcf4b5b1de808aeefa4d975c8f7
 vendor/lib/libmmcamera2_q3a_core.so
 vendor/lib/libmmcamera2_sensor_modules.so
 vendor/lib/libmmcamera2_stats_algorithm.so
@@ -266,7 +266,7 @@ vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmcamera_vstab_module.so
 
 # Offmode charging
-vendor/bin/charge_only_mode
+vendor/bin/charge_only_mode|c40a00995ba78a1b5eb806d796a9aa1d3ae7f712
 
 # Display Calibrations
 vendor/etc/qdcm_calib_data_mipi_mot_vid_csot_720p_622.xml|a7bee235c1dbad83f1866e4e81d7cc0c1f503cfb
@@ -294,8 +294,8 @@ vendor/firmware/st21nfc_fw.bin
 vendor/firmware/AbovCapSense.BIN
 
 # Sensors
-vendor/lib/sensors.ssc.so
-vendor/lib64/sensors.ssc.so
+vendor/lib/sensors.ssc.so|01b65f35579f490e997292354d100bf8a3351ba7
+vendor/lib64/sensors.ssc.so|d960f08a511443fb59dc4012bd28796595aa08f7
 
 # Sound Card (tfa98xx)
 vendor/firmware/tfa98xx.cnt
