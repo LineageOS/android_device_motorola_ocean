@@ -287,6 +287,9 @@ vendor/lib64/com.fingerprints.extension@1.0.so
 vendor/firmware/leia_pfp_470.fw
 vendor/firmware/leia_pm4_470.fw
 
+# MotCamera2
+product/priv-app/MotCamera2/MotCamera2.apk;PRESIGNED
+
 # NFC Firmware
 vendor/firmware/st21nfc_fw.bin
 
