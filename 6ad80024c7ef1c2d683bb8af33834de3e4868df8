@@ -16,6 +16,24 @@
       "message": "hi \n\nOcean needs HAL v5 to fix issue #6748 [1] in lineage-21. \nthis is based on reverting switch to prebuild in river \u0026 revert in lake.\nnote addition of audio.primary.msm8953 for ocean.\n\nTested in Zoom, and Skype test calls on real ocean device.\n\n1. https://gitlab.com/LineageOS/issues/android/-/issues/6748\n2. https://github.com/LineageOS/android_device_motorola_river/commit/d26173a108d93272aa0e54685c7cccb6c8e8de6c\n3. https://github.com/LineageOS/android_device_motorola_lake/commit/f890cc6dd26b48be126bbbb6928946a58f97ebe1",
       "revId": "6ad80024c7ef1c2d683bb8af33834de3e4868df8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0abd715d_65705559",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2024-10-28T20:04:16Z",
+      "side": 1,
+      "message": "This is likely to cause regressions with fluence/echo and overall audio quality.\n\nFrom memory of the bug report, ocean just needs proper audio routes for VoIP apps.\n\nFor example: https://review.lineageos.org/c/LineageOS/android_device_motorola_kiev/+/396842",
+      "parentUuid": "c35b641a_2bb81390",
+      "revId": "6ad80024c7ef1c2d683bb8af33834de3e4868df8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
