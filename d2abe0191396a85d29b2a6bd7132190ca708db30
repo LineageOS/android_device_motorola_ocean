@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8fa72144_f97215d9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34290
+      },
+      "writtenOn": "2024-10-28T23:12:28Z",
+      "side": 1,
+      "message": "hi, \n\ntested this with Skype and Google Meet\n\nMicrophone quality appears to better.",
+      "revId": "d2abe0191396a85d29b2a6bd7132190ca708db30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
