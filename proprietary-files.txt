@@ -1,17 +1,6 @@
 ## All blobs from this list, unless pinned and noted as otherwise,
 ## are from ocean_retail (QPOS30.52-29-12).
 
-# Audio (Prebuilt Audio HAL)
-vendor/lib/hw/audio.primary.msm8953.so
-vendor/lib/libadm.so
-vendor/lib/liblog_vendor.so
-vendor/lib/libmotaudioutils.so
-vendor/lib/libsensorndkbridge.so
-vendor/lib/libtinycompress_vendor.so
-vendor/lib/soundfx/libmmieffectswrapper.so
-vendor/lib/soundfx/libspeakerbundle.so|af862a0f01a2c2134dffeb47dd6b6dbd6d2efd39
-vendor/lib/vndk/libtinyalsa.so:vendor/lib/libtinyalsa.so
-
 # Audio - ACDB
 vendor/etc/acdbdata/common/Bluetooth_cal.acdb
 vendor/etc/acdbdata/common/General_cal.acdb
