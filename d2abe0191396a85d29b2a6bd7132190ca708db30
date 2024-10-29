@@ -16,6 +16,24 @@
       "message": "hi, \n\ntested this with Skype and Google Meet\n\nMicrophone quality appears to better.",
       "revId": "d2abe0191396a85d29b2a6bd7132190ca708db30",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1d73c7b_841de09e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34290
+      },
+      "writtenOn": "2024-10-29T14:37:21Z",
+      "side": 1,
+      "message": "forgot to mention, SLIM_0_RX_Voice in mixer_paths_tfa987x.xml appeared to be an unreferenced mistake in compress-voip-call so i change it to match other paths.\n\nreally sorry also for moving from https://review.lineageos.org/c/LineageOS/android_device_motorola_ocean/+/407102\n\ni misinterpreted \"repo upload .\" \u0027s push behaviour vs. Change-Id with Gerrit!",
+      "parentUuid": "8fa72144_f97215d9",
+      "revId": "d2abe0191396a85d29b2a6bd7132190ca708db30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
