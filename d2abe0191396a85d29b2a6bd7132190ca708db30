@@ -51,6 +51,24 @@
       "message": "where did these even come from?",
       "revId": "d2abe0191396a85d29b2a6bd7132190ca708db30",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "46dd09b7_0cbff527",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34290
+      },
+      "writtenOn": "2024-11-11T09:41:49Z",
+      "side": 1,
+      "message": "i wrote them based on the example @SyberHexen@gmail.com provided in the older ticket:\n\nhttps://review.lineageos.org/c/LineageOS/android_device_motorola_kiev/+/396842\n\njust a mapping of audio-*-voip to what is on the device.",
+      "parentUuid": "07a20b5b_685ab04c",
+      "revId": "d2abe0191396a85d29b2a6bd7132190ca708db30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
