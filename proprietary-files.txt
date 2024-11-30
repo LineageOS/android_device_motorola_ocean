@@ -51,6 +51,7 @@ vendor/lib/libmmqjpegdma.so
 vendor/lib/libmot_afd.so
 vendor/lib/libmot_lux_standardization.so
 vendor/lib/libmotimager_utils.so
+vendor/lib/libseemore.so
 vendor/lib/libqomx_core.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
