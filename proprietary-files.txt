@@ -289,7 +289,7 @@ vendor/firmware/novatek_ts-csot-NT36672A-180919-07-ocean.bin
 
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ocean.rc
 vendor/lib64/com.fingerprints.extension@1.0.so
 
 # Misc Firmware
